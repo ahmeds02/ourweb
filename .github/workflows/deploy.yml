@@ -28,7 +28,7 @@ jobs:
           # Verify you can now access the 'bicep' command
           bicep --help
           # Done!"
-    - name: Deploy the Bicep script
+    - name: Deploy the Bicep script 
       uses: azure/arm-deploy@v1
       with:
             resourceGroupName: "WebAppGroup"
